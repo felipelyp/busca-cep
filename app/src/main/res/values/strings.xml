@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Busca CEP</string>
+
+    <string name="cep">CEP</string>
+    <string name="cep_subtitle">Digite um <b>CEP</b> e consulte</string>
+    <string name="cep_search">Consultar</string>
+    <string name="cep_invalid">CEP Informado é inválido</string>
+    <string name="cep_error">O cep informado não foi encontrado</string>
+    <string name="cep_info_empty">Sem informação</string>
+
+    <string name="cep_info_consulted">CEP Consultado:</string>
+    <string name="cep_info_localidade">Cidade:</string>
+    <string name="cep_info_estado">Estado:</string>
+    <string name="cep_info_bairro">Bairro:</string>
+    <string name="cep_info_endereco">Endereço:</string>
+    <string name="cep_info_complemento">Complemento:</string>
+    <string name="cep_info_ddd">DDD:</string>
+
+    <string name="cep_loading">Carregando…</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_primary">#FF57CC99</color>
+    <color name="theme_varient">#FF3ABB83</color>
+
+    <color name="theme_secundary_primary">#FF38A3A5</color>
+    <color name="theme_secundary_variant">#FF2F8789</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
