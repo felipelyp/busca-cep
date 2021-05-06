@@ -2,6 +2,6 @@
 
 Simples Busca Cep
 
-# Versão Kotlin
+## Baixe o aplicativo
 
-[Projeto Kotlin](https://github.com/felipelyp/busca-cep/tree/kotlin)
+[Busca CEP - App](https://play.google.com/store/apps/details?id=com.felipelyp.buscacep)
