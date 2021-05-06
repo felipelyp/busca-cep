@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.felipelyp.buscacep.databinding.ActivitySearchBinding
 import com.felipelyp.buscacep.utils.CepValidator
+import com.felipelyp.buscacep.utils.hideKeyboard
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 
@@ -59,6 +60,8 @@ class SearchActivity : AppCompatActivity() {
         })
 
         binding.btnSearch.setOnClickListener {
+            hideKeyboard()
+
             binding.cepLayout.error = ""
             val cep = binding.cep.text.toString()
 
