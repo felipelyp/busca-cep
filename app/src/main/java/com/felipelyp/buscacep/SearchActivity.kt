@@ -60,13 +60,13 @@ class SearchActivity : AppCompatActivity() {
         })
 
         binding.btnSearch.setOnClickListener {
-            hideKeyboard()
-
             binding.cepLayout.error = ""
             val cep = binding.cep.text.toString()
 
             if (CepValidator.isValid(cep)) {
                 binding.cardResult.visibility = View.GONE
+
+                hideKeyboard()
 
                 dialog.show()
                 model.search(cep)
